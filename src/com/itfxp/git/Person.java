@@ -1,9 +1,8 @@
 package com.itfxp.git;
 
-public class Person {
+public abstract class Person {
     private int age;
     private String name;
-    private String address;
-	private String sex;
 
+    public abstract void sleep();
 }
